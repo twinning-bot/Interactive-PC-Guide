@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive PC Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive PC Guide</h1>
+    </header>
+
+    <!-- PC Diagram Section -->
+    <section class="pc-diagram">
+        <h2>Parts of a Computer</h2>
+        <img src="pc-diagram.jpg" alt="PC Diagram">
+    </section>
+
+    <!-- PC Components Guide -->
+    <section class="pc-components">
+        <h2>PC Components Guide</h2>
+
+        <div class="component" onclick="toggleInfo('cpu-info')">
+            <h3>CPU (Central Processing Unit)</h3>
+            <img src="cpu.jpg" alt="CPU Image">
+            <p id="cpu-info" class="info">The CPU is the brain of the computer, handling all calculations and instructions.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('ram-info')">
+            <h3>RAM (Random Access Memory)</h3>
+            <img src="ram.jpg" alt="RAM Image">
+            <p id="ram-info" class="info">RAM temporarily stores data for quick access, speeding up the computer’s performance.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('gpu-info')">
+            <h3>GPU (Graphics Processing Unit)</h3>
+            <img src="gpu.jpg" alt="GPU Image">
+            <p id="gpu-info" class="info">The GPU renders images, videos, and graphics, essential for gaming and 3D work.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('hdd-info')">
+            <h3>HDD (Hard Disk Drive)</h3>
+            <img src="hdd.jpg" alt="HDD Image">
+            <p id="hdd-info" class="info">HDDs provide large storage capacity for OS, files, and applications.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('ssd-info')">
+            <h3>SSD (Solid State Drive)</h3>
+            <img src="ssd.jpg" alt="SSD Image">
+            <p id="ssd-info" class="info">SSDs are faster than HDDs, improving boot time and application speed.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('psu-info')">
+            <h3>Power Supply Unit (PSU)</h3>
+            <img src="psu.jpg" alt="Power Supply Image">
+            <p id="psu-info" class="info">The PSU converts electricity into usable power for all computer components.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('motherboard-info')">
+            <h3>Motherboard</h3>
+            <img src="motherboard.jpg" alt="Motherboard Image">
+            <p id="motherboard-info" class="info">The motherboard connects all components and allows communication between them.</p>
+        </div>
+
+        <div class="component" onclick="toggleInfo('cooling-info')">
+            <h3>Cooling System</h3>
+            <img src="cooling.jpg" alt="Cooling System Image">
+            <p id="cooling-info" class="info">The cooling system prevents overheating using fans, heatsinks, and liquid cooling solutions.</p>
+        </div>
+    </section>
+
+    <!-- Assembly & Disassembly Steps -->
+    <section class="assembly-guide">
+        <h2>PC Assembly & Disassembly Guide</h2>
+        
+        <div class="step">
+            <h3>Step 1: Prepare the Workspace</h3>
+            <p>Ensure a clean, static-free area and gather all necessary tools.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 2: Install the CPU</h3>
+            <p>Open the CPU socket, align the processor, and secure it in place.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 3: Insert RAM</h3>
+            <p>Align RAM sticks with motherboard slots and press them down firmly.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 4: Attach Storage Drives</h3>
+            <p>Mount HDD/SSD into drive bays and connect SATA cables.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 5: Install Power Supply</h3>
+            <p>Secure the PSU in the case and connect power cables to components.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 6: Add GPU</h3>
+            <p>Insert the graphics card into the PCIe slot and secure it.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 7: Connect Cables</h3>
+            <p>Attach motherboard, power, and data cables as per the manual.</p>
+        </div>
+
+        <div class="step">
+            <h3>Step 8: Power On & Test</h3>
+            <p>Turn on the system, check for display output, and enter BIOS.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Background Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, #1e3c72, #2a5298);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #141e30;
+    color: white;
+    padding: 20px;
+    font-size: 26px;
+}
+
+/* PC Diagram */
+.pc-diagram {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.pc-diagram img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* PC Components Guide */
+.pc-components {
+    background: white;
+    padding: 30px;
+    color: black;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.component {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.component:hover {
+    transform: scale(1.02);
+}
+
+.component img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.component p {
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+/* Assembly Guide */
+.assembly-guide {
+    background: #141e30;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.assembly-guide h2 {
+    color: #ffcc00;
+}
+
+.step {
+    background: #1e3c72;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: white;
+}
